@@ -1,0 +1,105 @@
+
+  - description: null
+    label: "Globals"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+          tooltip: "The main H1 title of the page"
+      - name: "page_content"
+        label: "Page Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "hero_image"
+        label: "Hero Image"
+        description: ""
+        datatype: "images"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "headless_api_title"
+        label: "Headless API Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "headless_api_content"
+        label: "Headless API Content"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "next_js_starter_title"
+        label: "Next.js Starter Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "next_js_starter_content"
+        label: "Next.js Starter Content"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true

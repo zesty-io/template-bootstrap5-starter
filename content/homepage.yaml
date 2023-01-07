@@ -1,0 +1,25 @@
+
+  - id: "5570-b0f8-81c9"
+    web:
+      metaDescription: ""
+      metaTitle: "Homepage"
+      metaLinkText: "Homepage"
+      metaKeywords: null
+      pathPart: "zesty_home"
+      path: "/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      headless_api_content: "Every page (content model) has as associated HTML template and automated API endpoints ready to go. Edit this page in the Zesty Web IDE (code) or access this homepage content with the toJSON API."
+      headless_api_title: "Templating and Headless APIs"
+      hero_image: null
+      next_js_starter_content: "Zesty has an excellent integration to Next.js, a React framework that gives you building blocks to create web applications and websites. Learn how to use Next.js and Zesty together: "
+      next_js_starter_title: "Work in Next.js"
+      page_content: "<p>Zesty.io is an enterprise grade content management system with headless apis, dynamic content capabilities, personalization, a/b testing abilities, hosting, digital asset managment, analytics, drag n drop layouts and more.</p>"
+      title: "Welcome to Zesty (homepage title)"
