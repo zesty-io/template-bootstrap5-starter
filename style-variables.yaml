@@ -912,14 +912,6 @@
     category: 2
     options: null
   - referenceName: "h5-44ccc74-sn4pc4st3r"
-    name: "H5 Margin Bottom"
-    sort: 32
-    type: "text"
-    value: "10px"
-    description: null
-    category: 2
-    options: null
-  - referenceName: "h5-44ccc74-sn4pc4st3r"
     name: "H5 Font Weight"
     sort: 32
     type: "font_weight"
